@@ -1,0 +1,92 @@
+/* UNITE windowDecorations */
+@import url('/home/k9v/.local/share/gnome-shell/extensions/unite@hardpixel.eu/styles/gtk3/buttons-right/always.css');
+/* windowDecorations UNITE */
+
+#XfcePanelWindow {
+    margin: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#whiskermenu-button  {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#whiskermenu-button:hover  {
+    border: 2px;
+    border-color: red;
+}
+
+#whiskermenu-button image {
+    -gtk-icon-transform: scale(1.1);
+}
+
+#actions-button {
+    font-family: "Monospace bold";
+}
+
+#pulseaudio-button image {
+    -gtk-icon-transform: scale(0.9);
+}
+
+#xfce4-notification-plugin image {
+    -gtk-icon-transform: scale(0.9);
+}
+
+#systray-30 button {
+    padding: 3px;
+}
+
+#clock-button {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+/*
+.xfce4-panel.horizontal{
+    border:0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(234, 0, 255, 0.2); 
+}
+
+#tasklist-2 button {
+}
+
+#XfcePanelWindowWrapper{
+    background-color: transparent; 
+}
+
+#whiskermenu-button{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(234, 0, 255, 0.2); 
+}
+
+#pulseaudio-button {
+    background-color: rgba(234, 0, 255, 0.2);
+}
+
+#xfce4-notification-plugin {
+    background-color: rgba(234, 0, 255, 0.2);
+}
+
+#actions-14 button {
+    background-color: rgba(234, 0, 255, 0.2);
+}
+
+#systray-6 button {
+    background-color: rgba(234, 0, 255, 0.2);
+}
+
+#workspaceswitcher {
+    background-color: black;
+}
+
+#pager-4 button {
+    background-color: black;
+}*/
