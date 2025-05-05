@@ -1,0 +1,38 @@
+[global_config]
+  handle_size = 4
+  extra_styling = False
+  tab_position = bottom
+  inactive_color_offset = 0.9594594594594594
+  cell_width = 1.3
+[keybindings]
+  new_tab = <Primary>t
+  split_horiz = <Primary>h
+  split_vert = <Primary>b
+  close_term = <Primary>w
+[profiles]
+  [[default]]
+    audible_bell = True
+    visible_bell = True
+    icon_bell = False
+    background_color = "#e900ff"
+    background_darkness = 0.1
+    background_type = transparent
+    cursor_fg_color = "#06ff00"
+    cursor_bg_color = "#e900ff"
+    font = Monospace Bold 10
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 1000
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    use_system_font = False
+    bold_is_bright = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
